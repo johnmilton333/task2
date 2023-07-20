@@ -1,0 +1,287 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar {
+    height: 60px;
+    overflow: hidden;
+    background-color: #333;
+   
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .section1{
+    width:100%;
+    height:900px;
+    background: black;
+    position: relative;
+  
+  }
+  .title1{
+    width: 50%;
+    height: 600px;
+    background:black;
+    float: left;
+  }
+  .title2{
+    width: 50%;
+    height: 600px;
+    background:black;
+    float: right;
+  }
+
+  .layout{
+    width:80%;
+    height: 550px;
+    background:black;
+    margin-left: 35px;
+    margin-top: 20px;
+    
+  }
+  .container1{
+    width: 100%;
+    height:100px;
+    background: black;
+    margin-top: 20px;
+    color: white;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    word-spacing: 50px;  
+  }
+
+  .container1 h1{
+    font-size: 80px;
+    }
+    
+  
+  .container2{
+    width: 100%;
+    height:100px;
+    background: black;
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    
+  }
+  .container3{
+    width: 100%;
+    background: rgb(199, 205, 10);
+    margin-top: 20px;
+    height: 300px;
+    background-image: url(./images/pxfuel\ \(3\).jpg);
+    background-position:center;
+    background-size:cover ; 
+      
+    
+  }
+ 
+  .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background: #ccc;
+  }
+  .search-container {
+    float: right;
+  }
+  .search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  .style1{
+    background-color:rgb(123, 11, 35);
+    height: 200px;
+    width: 30%;
+    margin-left: 300px;
+    margin-top: 270px;
+    background-image: url(./images/pxfuel\ \(2\).jpg);
+    background-position:center;
+    background-size:cover ; 
+  }
+  .style2{
+    background-color:rgb(123, 11, 35);
+    height: 200px;
+    width: 50%;
+    margin-left: 420px;
+    margin-top: -380px;
+    background-image: url(./images/1337017.jpg);
+    background-position:center;
+    background-size:cover ; 
+  }
+
+  .style3{
+    background-color:rgb(123, 11, 35);
+    height: 200px;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: -250px;
+    background-image: url(./images/ceaed15a59896bc3108bdcf9009d0fd9_706x397.jpg);
+    background-position:center;
+    background-size:cover ; 
+  }
+  
+  .style4:hover{
+    height: 300px;
+    width: 40%;
+    background-image: url(./images/4d432337ab6cfac8ffe6b339fea69b4d~c5_720x720.jpeg);
+    background-position:center;
+    background-size:cover ; 
+    border-radius: 30px;
+    background-color: aquamarine;
+  }
+  
+  .style4{
+    height: 300px;
+    width: 40%;
+   
+    background-position:center;
+    background-size:cover ; 
+    border-radius: 30px;
+    background-color:black;
+  }
+  .style5{
+    width:40%;
+    height: 60px;
+    background: rgb(199, 205, 10);
+    background-image: url(./images/new\ moon.jpeg);
+    background-position:center;
+    background-size:cover ; 
+  
+  }
+  .style6{
+    width:40%;
+    height: 60px;
+    background: rgb(199, 205, 10);
+    float: right;
+    margin-top: -60px;
+    background-image: url(./images/words.jpeg);
+    background-position:center;
+    background-size:cover ; 
+  
+  }
+  .style7:hover{
+    width:40%;
+    height: 60px;
+    background: rgb(199, 205, 10);
+    margin-top: 10px;
+    margin-left: 250px;
+    background-image: url(./images/forever.jpeg);
+    background-position:center;
+    background-size:cover ; 
+  
+  }
+  .style7{
+    width:40%;
+    height: 60px;
+    background:black;
+    margin-top: 10px;
+    margin-left: 250px;
+   
+    background-position:center;
+    background-size:cover ; 
+  
+  }
+  .title3{
+    width:100%;
+    height: 100px;
+    background:black;
+    position: absolute;
+    margin-top: 750px;
+    
+  
+
+    
+  }
+  .note1{
+    font-size: 25px;
+    text-align: center;
+    border-radius: 100px;
+   
+ 
+    margin-left: 60px;
+    float: left;
+
+}
+.note1 i{
+   
+    color:white;
+}
+  
+.switch{
+    width: 25%;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+
+    background-color: black;
+    border-bottom: 6px solid red;
+    border-radius: 20px;
+    
+    
+}
+
+  
